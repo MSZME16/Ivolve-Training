@@ -1,4 +1,4 @@
-###### Lab 20: Launching an EC2 Instance 
+# Lab 20: Launching an EC2 Instance 
 
 ## Objective
 1. Create a private subnet and launch an EC2 instance in it.
