@@ -24,7 +24,7 @@ Create a VPC:
     Assign the second subnet to the second Availability Zone (e.g., 172.31.3.0/24).
     Create the subnets.
 
-![alt text](screenshot/lab21-subnet.png)
+![alt text](lab21-subnet.png)
 
 ---
 #### **Step 2: Step 2: Launch EC2 Instances**
@@ -59,7 +59,7 @@ Create a VPC:
     systemctl status apache2
 ``` 
 
-![alt text](screenshot/lab21-instance.png)
+![alt text](lab21-instance.png)
 
 ---
 3- Configure Security Groups:
@@ -92,13 +92,13 @@ Create a VPC:
     Add the EC2 instances created in Step 2 as targets.
     then create load blalncer
 
-![alt text](screenshot/lab21-target-group.png)
+![alt text](lab21-target-group.png)
 
 ---
 
 the Resource map-LB for LB is like 
 
-![alt text](<screenshot/lab21-Resource map-LB.png>)
+![alt text](<lab21-Resource map-LB.png>)
 
 
 
@@ -108,4 +108,4 @@ Get the DNS Name of the Load Balancer:
    - Go to the Load Balancer section in the EC2 dashboard.
    - Copy the DNS name of the created load balancer.
 
-   <video controls src="screenshot/lab21-DNS-LB.mp4" title="Title"></video>
+   
