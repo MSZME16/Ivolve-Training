@@ -25,22 +25,22 @@ Before running Terraform, make sure you have:
    ```bash
    terraform init
    ```
-   ![alt text](lab-25-init.png)
+   ![alt text](<screenshots/lab-25-init.png>)
 
 2. Review and adjust variables in `variables.tf` according to your requirements.
-   ![alt text](lab-25-plan1.png)
+   ![alt text](<screenshots/lab-25-plan1.png)
 
-   ![alt text](lab-25-plan2.png)
+   ![alt text](<screenshots/lab-25-plan2.png>)
 3. Apply the Terraform configuration:
 
    ```bash
    terraform apply --auto-approve
    ```
-   ![alt text](lab-25-apply1.png)
+   ![alt text](<screenshots/lab-25-apply1.png>)
 
-   ![alt text](lab-25-apply2.png)   
+   ![alt text](<screenshots/lab-25-apply2.png>)   
 
-   ![alt text](lab-25-apply3.png)
+   ![alt text](<screenshots/lab-25-apply3.png>)
 
 ## Configuration Files
 
@@ -63,13 +63,13 @@ Feel free to customize the configuration files as per your project requirements.
 
 ## Screenshots
 
-   ![alt text](lab-25-subnets.png)
+   ![alt text](<screenshots/lab-25-subnets.png>)
 
-   ![alt text](lab-25-rt.png)
+   ![alt text](<screenshots/lab-25-rt.png>)
 
-   ![alt text](lab-25-igw.png)
+   ![alt text](<screenshots/lab-25-igw.png>)
 
-   ![alt text](lab-25-rds.png)
+   ![alt text](<screenshots/lab-25-rds.png>)
 ## Cleanup
 
 After testing or when done with the resources, you can destroy them using Terraform:
