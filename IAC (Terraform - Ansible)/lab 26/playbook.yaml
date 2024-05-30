@@ -1,0 +1,8 @@
+---
+- name: Install Docker, jenkins ans oc
+  hosts: all
+  #gather_facts: false
+  roles:
+    - docker
+    - jenkins
+    - oc_cli
