@@ -1,0 +1,8 @@
+---
+- name: Install Nginx and start it
+  hosts: servers
+  gather_facts: false
+  roles:
+    - docker
+    - jenkins
+    - oc_cli
