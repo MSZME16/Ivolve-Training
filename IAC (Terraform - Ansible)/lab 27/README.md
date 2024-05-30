@@ -2,13 +2,6 @@
 
 This project demonstrates the use of Ansible to automate the installation of Docker, Jenkins, and the OpenShift CLI (oc) on target hosts.
 
-
-
-## Roles
-
-
-![alt text](role2.png)
-
 ### Docker Role
 
 This Ansible role installs Docker on the target hosts and adds a specified user to the Docker group.
