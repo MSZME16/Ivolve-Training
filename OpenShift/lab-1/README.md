@@ -14,17 +14,11 @@ This guide will walk you through the steps to deploy an Nginx application on Ope
 ```sh
 oc login <your-cluster-url> --username=<your-username> --password=<your-password>
 ```
-
-![alt text](screenshots/login.png)
-
 ### 2. Create a New Project (Optional)
 
 ```sh
 oc new-project my-web-project
 ```
-
-![alt text](screenshots/project.png)
-
 ### 3. Create the Nginx Deployment
 
 ```sh
