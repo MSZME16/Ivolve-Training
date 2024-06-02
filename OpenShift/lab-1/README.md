@@ -7,6 +7,8 @@ This guide will walk you through the steps to deploy an Nginx application on Ope
 - Access to an OpenShift cluster
 - OpenShift CLI (`oc`) installed and configured
 
+  
+
 ## Steps
 
 ### 1. Log in to Your OpenShift Cluster
