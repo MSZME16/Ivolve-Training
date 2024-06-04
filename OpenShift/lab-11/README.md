@@ -1,5 +1,6 @@
 # Lab 5: OpenShift Security and RBAC
 
+
 ## Objective
 
 The objective of this lab is to demonstrate the concepts of OpenShift security and Role-Based Access Control (RBAC) by performing the following tasks:
