@@ -1,5 +1,6 @@
 To deploy an Nginx application using ArgoCD and manage it with the ELK stack on an OpenShift cluster, follow these steps. This guide will include detailed instructions and necessary YAML configurations.
 
+
 ### Prerequisites
 
 - OpenShift cluster up and running.
