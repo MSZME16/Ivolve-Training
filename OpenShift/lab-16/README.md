@@ -16,19 +16,19 @@ Source-to-Image (S21) Workflow Objective: Use Source-to-Image to build container
 ### Create new App As:
 
   ```
-  oc new-app --image=registry.access.redhat.com/rhscl/nginx-114-rhel7:latest --code=https://github.com/IbrahimmAdel/html.git --name=my-app -n alikhames
+  oc new-app --image=registry.access.redhat.com/rhscl/nginx-114-rhel7:latest --code=https://github.com/IbrahimmAdel/html.git --name=my-app -n mohamedmasry
 
   ```
 ### Start new build 
 
   ```
-  oc start-build my-app -n alikhames
+  oc start-build my-app -n mohamedmasry
 
   ```
 ### view logs
 
   ```
-  oc logs -f bc/my-app -n ahlamahmed
+  oc logs -f bc/my-app -n mohamedmasry
   ```
   
 ### Expose app service
